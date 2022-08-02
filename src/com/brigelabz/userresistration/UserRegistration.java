@@ -9,21 +9,21 @@ public class UserRegistration {
         Scanner scanner =new Scanner(System.in);
         UserRegistration newName = new UserRegistration();
         System.out.println("Enter First Name : ");
-        String firstName = scanner.nextLine();
-        newName.checkFirstName(firstName);
+        String lastName = scanner.nextLine();
+        newName.checkLastName(lastName);
     }
-    public void checkFirstName(String firstname){
+    public void checkLastName(String lastname){
         String regex = "[A-Z]{1}[a-z]{2,}";
 
         Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(firstname);
+        Matcher matchChecker = patternChecker.matcher(lastname);
 
         //checking valid or not
         if(matchChecker.matches()){
-            System.out.println("First name is valid");
+            System.out.println("Last name is valid");
         }
         else{
-            System.out.println("First Name is Invalid");
+            System.out.println("Last Name is Invalid");
         }
     }
 
