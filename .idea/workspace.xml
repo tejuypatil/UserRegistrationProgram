@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check Last name start with capital letter and has 3 characters" />
+
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check valid email or not">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
+    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="UserRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.UserRegistration" />
@@ -68,12 +73,13 @@
       <option name="project" value="LOCAL" />
       <updated>1659444263837</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added Program to check Last name start with capital letter and has 3 characters">
-      <created>1659444680702</created>
+
+    <task id="LOCAL-00002" summary="Added Program to check valid email or not">
+      <created>1659445778528</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1659444680702</updated>
+
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -91,7 +97,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to check First name start with capital letter and has 3 characters" />
+
+    <MESSAGE value="Added Program to check valid email or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check valid email or not" />
+
     <MESSAGE value="Added Program to check Last name start with capital letter and has 3 characters" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Program to check Last name start with capital letter and has 3 characters" />
-  </component>
-</project>
