@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check First name start with capital letter and has 3 characters">
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
-    </list>
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check Last name start with capital letter and has 3 characters" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659444263837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Program to check Last name start with capital letter and has 3 characters">
+      <created>1659444680702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659444680702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to check First name start with capital letter and has 3 characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check First name start with capital letter and has 3 characters" />
+    <MESSAGE value="Added Program to check Last name start with capital letter and has 3 characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check Last name start with capital letter and has 3 characters" />
   </component>
 </project>
