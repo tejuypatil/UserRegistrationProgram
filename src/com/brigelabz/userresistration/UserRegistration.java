@@ -14,7 +14,6 @@ public class UserRegistration {
     }
     public void checkMobileNumber(String mobileNumber){
         String regex = "^[0-9]{2}[ ][0-9]{10}$";
-
         Pattern patternChecker = Pattern.compile(regex);
         Matcher matchChecker = patternChecker.matcher(mobileNumber);
 
