@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 public class UserRegistration {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
+
         UserRegistration mobileNo = new UserRegistration();
         System.out.println("Enter Mobile Number : ");
         String mobileNumber = scanner.nextLine();
@@ -14,6 +15,7 @@ public class UserRegistration {
     }
     public void checkMobileNumber(String mobileNumber){
         String regex = "^[0-9]{2}[ ][0-9]{10}$";
+
         Pattern patternChecker = Pattern.compile(regex);
         Matcher matchChecker = patternChecker.matcher(mobileNumber);
 
