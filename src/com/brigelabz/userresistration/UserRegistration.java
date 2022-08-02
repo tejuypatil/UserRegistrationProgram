@@ -7,22 +7,22 @@ import java.util.regex.Pattern;
 public class UserRegistration {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
-        UserRegistration mobileNo = new UserRegistration();
-        System.out.println("Enter Mobile Number : ");
-        String mobileNumber = scanner.nextLine();
-        mobileNo.checkMobileNumber(mobileNumber);
+        UserRegistration password = new UserRegistration();
+        System.out.println("Enter Password Minimum 8 characters : ");
+        String userPassword= scanner.nextLine();
+        password.checkPasswordRule(userPassword);
     }
-    public void checkMobileNumber(String mobileNumber){
-        String regex = "^[0-9]{2}[ ][0-9]{10}$";
+    public void checkPasswordRule(String userPassword){
+        String regex = "^[a-zA-Z]{8,}";
         Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(mobileNumber);
+        Matcher matchChecker = patternChecker.matcher(userPassword);
 
         //checking valid or not
         if(matchChecker.matches()){
-            System.out.println("Valid Mobile Number");
+            System.out.println("Valid Password");
         }
         else{
-            System.out.println("Invalid Mobile Number");
+            System.out.println("Invalid Password");
         }
     }
 
