@@ -11,6 +11,7 @@ public class UserRegistration {
         UserRegistration password = new UserRegistration();
         System.out.println("Enter Password Minimum 8 characters : ");
         String userPassword= scanner.nextLine();
+
         password.checkPasswordRuleThird(userPassword);
     }
 
@@ -26,5 +27,22 @@ public class UserRegistration {
         else{
             System.out.println("Invalid Password");
         }
+
     }
+
+    public void checkPasswordRuleSecond(String userPassword){
+        String regex = "^(?=.*[A-Z])(?=.*[a-z]).{8,}";
+
+        Pattern patternChecker = Pattern.compile(regex);
+        Matcher matchChecker = patternChecker.matcher(userPassword);
+
+        //checking valid or not
+        if(matchChecker.matches()){
+            System.out.println("Valid Password");
+        }
+        else{
+            System.out.println("Invalid Password");
+        }
+    }
+
 }
