@@ -10,9 +10,9 @@ public class UserRegistration {
         UserRegistration newName = new UserRegistration();
         System.out.println("Enter First Name : ");
         String lastName = scanner.nextLine();
-        newName.checkFirstName(lastName);
+        newName.checkLastName(lastName);
     }
-    public void checkFirstName(String lastname){
+    public void checkLastName(String lastname){
         String regex = "[A-Z]{1}[a-z]{2,}";
 
         Pattern patternChecker = Pattern.compile(regex);
