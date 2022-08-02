@@ -11,11 +11,11 @@ public class UserRegistration {
         UserRegistration password = new UserRegistration();
         System.out.println("Enter Password Minimum 8 characters : ");
         String userPassword= scanner.nextLine();
-        password.checkPasswordRuleThird(userPassword);
+        password.checkPasswordRuleForth(userPassword);
     }
 
-    public void checkPasswordRuleThird(String userPassword){
-        String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,}";
+    public void checkPasswordRuleForth(String userPassword){
+        String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[*.!@#$%^&(){}:;<>?/~_+-=|\\]]).{8,}";
         Pattern patternChecker = Pattern.compile(regex);
         Matcher matchChecker = patternChecker.matcher(userPassword);
 
