@@ -7,24 +7,28 @@ import java.util.regex.Pattern;
 public class UserRegistration {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
+        UserRegistrationMethods check = new UserRegistrationMethods();
 
-        UserRegistration password = new UserRegistration();
-        System.out.println("Enter Password Minimum 8 characters : ");
-        String userPassword= scanner.nextLine();
-        password.checkPasswordRuleForth(userPassword);
-    }
+        System.out.println("Enter First Name:-");
+        String FirstName = scanner.nextLine();
+        check.checkFirstName(FirstName);
 
-    public void checkPasswordRuleForth(String userPassword){
-        String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[*.!@#$%^&(){}:;<>?/~_+-=|\\]]).{8,}";
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(userPassword);
+        System.out.println("Enter Last Name:-");
+        String LastName = scanner.nextLine();
+        check.checkLastName(LastName);
 
-        //checking valid or not
-        if(matchChecker.matches()){
-            System.out.println("Valid Password");
-        }
-        else{
-            System.out.println("Invalid Password");
-        }
+        System.out.println("Enter Email:-");
+        String email = scanner.nextLine();
+        check.checkEmail(email);
+
+        System.out.println("Enter Mobile Number:-");
+        String mobileNumber = scanner.nextLine();
+        check.checkMobile(mobileNumber);
+
+        System.out.println("Enter Password :-");
+        String passWord =scanner.nextLine();
+        check.checkPasswordRule(passWord);
     }
 }
+
+
