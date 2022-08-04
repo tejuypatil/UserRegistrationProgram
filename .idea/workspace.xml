@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
 
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="">
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter">
+      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserRegistrationProblem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserRegistrationProblem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
     </list>
 
@@ -11,9 +14,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +25,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
+
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,12 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="UserRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.UserRegistration" />
@@ -69,50 +75,23 @@
       <option name="presentableId" value="Default" />
       <updated>1659442843728</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added Program to check First name start with capital letter and has 3 characters">
-      <created>1659444263837</created>
+
+    <task id="LOCAL-00001" summary="Added Program to check Password rule2 by using minimum 8 Characters and 1 Uppercase letter">
+      <created>1659454474397</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1659444263837</updated>
+      <updated>1659454474397</updated>
     </task>
-
-    <task id="LOCAL-00002" summary="Added Program to check valid email or not">
-      <created>1659445778528</created>
+    <task id="LOCAL-00002" summary="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter">
+      <created>1659455034191</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
+      <updated>1659455034191</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
 
-    </task>
-    <task id="LOCAL-00003" summary="Added Program to check valid Mobile Number or not">
-      <created>1659446535763</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659446535763</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added Program to check valid Mobile Number or not">
-      <created>1659446624050</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659446624050</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Program to check Password rule by using minimum 8 Characters">
-      <created>1659447233563</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659447233563</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added Program to check Password rule by using minimum 8 Characters">
-      <created>1659447320360</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659447320360</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,12 +106,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Program to check First name start with capital letter and has 3 characters" />
 
-    <MESSAGE value="Added Program to check valid email or not" />
-
-    <MESSAGE value="Added Program to check valid Mobile Number or not" />
-    <MESSAGE value="Added Program to check Password rule by using minimum 8 Characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check Password rule by using minimum 8 Characters" />
+    <MESSAGE value="Added Program to check Password rule2 by using minimum 8 Characters and 1 Uppercase letter" />
+    <MESSAGE value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
   </component>
 </project>
