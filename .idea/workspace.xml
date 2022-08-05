@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter">
-      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program of Junit Test case">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/ParameterisedUserRegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserRegistrationProblem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserRegistrationProblem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +39,11 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ParameterisedUserRegistrationTest">
     <configuration name="UserRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.UserRegistration" />
       <module name="UserRegistrationProblem" />
@@ -55,9 +57,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParameterisedUserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brigelabz.userresistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brigelabz.userresistration" />
+      <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.ParameterisedUserRegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationJunitTestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brigelabz.userresistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brigelabz.userresistration" />
+      <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.UserRegistrationJunitTestCases" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserRegistration" />
+        <item itemvalue="JUnit.ParameterisedUserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationJunitTestCases" />
+        <item itemvalue="Application.com.brigelabz.userresistration.UserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659455034191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Program of email sample check">
+      <created>1659628565309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659628565309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to check Password rule2 by using minimum 8 Characters and 1 Uppercase letter" />
     <MESSAGE value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
+    <MESSAGE value="Added Program of email sample check" />
+    <MESSAGE value="Added Program of Junit Test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program of Junit Test case" />
   </component>
 </project>
