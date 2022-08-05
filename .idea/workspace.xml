@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program of Junit Test case">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/ParameterisedUserRegistrationTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +26,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
+
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -104,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659442843728</updated>
     </task>
+
     <task id="LOCAL-00001" summary="Added Program to check Password rule2 by using minimum 8 Characters and 1 Uppercase letter">
       <created>1659454474397</created>
       <option name="number" value="00001" />
@@ -118,6 +124,7 @@
       <option name="project" value="LOCAL" />
       <updated>1659455034191</updated>
     </task>
+
     <task id="LOCAL-00003" summary="Added Program of email sample check">
       <created>1659628565309</created>
       <option name="number" value="00003" />
@@ -126,6 +133,7 @@
       <updated>1659628565309</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +148,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+
     <MESSAGE value="Added Program to check Password rule2 by using minimum 8 Characters and 1 Uppercase letter" />
     <MESSAGE value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
     <MESSAGE value="Added Program of email sample check" />
