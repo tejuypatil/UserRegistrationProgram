@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program for throw custom exceptions in case of invalid User details">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program by using Lambda Function to validate User Entry" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659961630684</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Program by using Lambda Function to validate User Entry">
+      <created>1659964110520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659964110520</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +161,22 @@
     <MESSAGE value="Added Program of Junit Test case" />
     <MESSAGE value="Added Program for JUnit Parameterised Test" />
     <MESSAGE value="Added Program for throw custom exceptions in case of invalid User details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program for throw custom exceptions in case of invalid User details" />
+    <MESSAGE value="Added Program by using Lambda Function to validate User Entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program by using Lambda Function to validate User Entry" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java</url>
+          <line>7</line>
+          <properties class="com.brigelabz.userresistration.UserAccess" method="matchChecker">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
