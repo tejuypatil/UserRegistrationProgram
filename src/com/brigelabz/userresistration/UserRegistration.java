@@ -9,6 +9,7 @@ public class UserRegistration {
         Scanner scanner =new Scanner(System.in);
         UserRegistrationMethods check = new UserRegistrationMethods();
 
+
         System.out.println("Enter First Name:-");
         String FirstName = scanner.nextLine();
         check.checkFirstName(FirstName);
@@ -28,7 +29,24 @@ public class UserRegistration {
         System.out.println("Enter Password :-");
         String passWord =scanner.nextLine();
         check.checkPasswordRule(passWord);
+
     }
+
+    public void checkPasswordRuleSecond(String userPassword){
+        String regex = "^(?=.*[A-Z])(?=.*[a-z]).{8,}";
+
+        Pattern patternChecker = Pattern.compile(regex);
+        Matcher matchChecker = patternChecker.matcher(userPassword);
+
+        //checking valid or not
+        if(matchChecker.matches()){
+            System.out.println("Valid Password");
+        }
+        else{
+            System.out.println("Invalid Password");
+        }
+    }
+
 }
 
 
