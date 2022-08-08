@@ -4,99 +4,144 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UserRegistrationMethods {
-    public String checkFirstName(String firstName)
+    public boolean checkFirstName(String firstName) throws UserRegistrationException
     {
-        String regex = "[A-Z]{1}[a-z]{2,}";
-
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(firstName);
-
-        if(matchChecker.matches()) {
-            System.out.println("Valid First Name");
-            return "true";
-        }
-        else
+        try
         {
-            System.out.println("InValid First Name");
-            return "false";
+            if (firstName.isEmpty() )
+            {
+                throw new UserRegistrationException("! Enter Value Is Empty !" ,
+                        UserRegistrationException.ExceptionType.EmptyEnter);
+            }
+            //------------Regex------------------
+            String regex = "^[A-Z]{1}[a-z]{2,}$";
+            Pattern patternChecker = Pattern.compile(regex);
+            Matcher matchChecker = patternChecker.matcher(firstName);
+
+            //-------------Check valid or Not-----
+            if(matchChecker.matches())
+                System.out.println(" * Valid First Name * ");
+            else
+                System.out.println(" * InValid First Name * ");
+            return matchChecker.matches();
+        }
+        catch (NullPointerException exception)
+        {
+            throw new UserRegistrationException(" ! Enter null ! ",
+                    UserRegistrationException.ExceptionType.NullEnter);
         }
     }
-    public String checkLastName(String lastName) {
-        String regex = "[A-Z]{1}[a-z]{2,}";
 
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(lastName);
-
-        if (matchChecker.matches())
-        {
-            System.out.println("Valid Last Name");
-            return "true";
-        }
-        else
-        {
-            System.out.println("InValid Last Name");
-            return "false";
-        }
-    }
-    public String checkEmail(String emailId)
+    public boolean checkLastName(String lastName)throws UserRegistrationException
     {
-        String regex = "^[a-z0-9]{3,}+([_+-.][a-z0-9]+)?(@[a-z0-9]+)([.][a-z]{2,4})([.][a-z]{2})?$";
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(emailId);
+        try {
+            if (lastName.isEmpty())
+            {
+                throw new UserRegistrationException("! Enter Value Is Empty !",
+                        UserRegistrationException.ExceptionType.EmptyEnter);
+            }
+            //------------Regex------------------
+            String regex = "^[A-Z]{1}[a-z]{2,}$";
 
-        if(matchChecker.matches())
-        {
-            System.out.println("Valid Email");
-            return "true";
+            Pattern patternChecker = Pattern.compile(regex);
+            Matcher matchChecker = patternChecker.matcher(lastName);
+
+            //-------------Check valid or Not-----
+            if (matchChecker.matches())
+                System.out.println(" * Valid Last Name * ");
+            else
+                System.out.println(" * InValid Last Name * ");
+            return matchChecker.matches();
         }
-        else
+        catch (NullPointerException exception)
         {
-            System.out.println("InValid Email");
-            return "false";
+            throw new UserRegistrationException(" ! Enter null ! ",
+                    UserRegistrationException.ExceptionType.NullEnter);
         }
     }
-    public String checkMobile(String mobileNumber)
+
+    public boolean checkEmail(String emailId)throws UserRegistrationException
     {
-        String regex = "^[0-9]{2}[ ][0-9]{10}$";
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(mobileNumber);
 
-        if(matchChecker.matches()) {
-            System.out.println("Valid Mobile Number");
-            return "true";
+        try {
+            if (emailId.isEmpty())
+            {
+                throw new UserRegistrationException("! Enter Value Is Empty !",
+                        UserRegistrationException.ExceptionType.EmptyEnter);
+            }
+
+            //------------Regex------------------
+            String regex = "^[a-z0-9]{3,}+([_+-.][a-z0-9]+)?(@[a-z0-9]+)([.][a-z]{2,4})([.][a-z]{2})?$";
+            Pattern patternChecker = Pattern.compile(regex);
+            Matcher matchChecker = patternChecker.matcher(emailId);
+
+            //-------------Check valid or Not-----
+            if(matchChecker.matches())
+                System.out.println(" * Valid Email * ");
+            else
+                System.out.println(" * InValid Email * ");
+            return matchChecker.matches();
         }
-        else {
-            System.out.println("InValid Mobile Number");
-            return "false";
+        catch (NullPointerException exception)
+        {
+            throw new UserRegistrationException(" ! Enter null ! ",
+                    UserRegistrationException.ExceptionType.NullEnter);
         }
     }
-    public String checkPasswordRule(String passWord) {
-        String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[*.!@#$%^&(){}:;<>?/~_+-=|\\]]).{8,}$";
-        Pattern patternChecker = Pattern.compile(regex);
-        Matcher matchChecker = patternChecker.matcher(passWord);
 
-        if (matchChecker.matches()) {
-            System.out.println("Valid Password");
-            return "true";
-        }
-        else {
-            System.out.println("InValid Password");
-            return "false";
-        }
-    }
-    public boolean checkEmailSamples(String email)
+    public boolean checkMobile(String mobileNumber)throws UserRegistrationException
     {
-        String regex = "^abc[a-zA-Z0-9.+-]*@[a-z0-9]*[.][a-z]{2,5}[.,a-z]*$";
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(email);
-        if (matcher.matches())
+        try {
+            if (mobileNumber.isEmpty())
+            {
+                throw new UserRegistrationException("! Enter Value Is Empty !",
+                        UserRegistrationException.ExceptionType.EmptyEnter);
+            }
+            //------------Regex------------------
+            String regex = "^[0-9]{2}[ ][0-9]{10}$";
+            Pattern patternChecker = Pattern.compile(regex);
+            Matcher matchChecker = patternChecker.matcher(mobileNumber);
+
+            //-------------Check valid or Not-----
+            if(matchChecker.matches())
+                System.out.println(" * Valid Mobile Number * ");
+            else
+                System.out.println(" * InValid Mobile Number * ");
+            return matchChecker.matches();
+        }
+        catch (NullPointerException exception)
         {
-            System.out.println("Entered Email Sample is Valid");
-            return true;
-        } else
+            throw new UserRegistrationException(" ! Enter null ! ",
+                    UserRegistrationException.ExceptionType.NullEnter);
+        }
+    }
+
+    public boolean checkPasswordRule(String passWord)throws UserRegistrationException
+    {
+
+        try {
+            if (passWord.isEmpty())
+            {
+                throw new UserRegistrationException("! Enter Value Is Empty !",
+                        UserRegistrationException.ExceptionType.EmptyEnter);
+            }
+
+            //------------Regex------------------
+            String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[*.!@#$%^&(){}:;<>?/~_+-=|\\]]).{8,}$";
+            Pattern patternChecker = Pattern.compile(regex);
+            Matcher matchChecker = patternChecker.matcher(passWord);
+
+            //-------------Check valid or Not-----
+            if(matchChecker.matches())
+                System.out.println(" * Valid Password * ");
+            else
+                System.out.println(" * InValid Password * ");
+            return matchChecker.matches();
+        }
+        catch (NullPointerException exception)
         {
-            System.out.println("Entered Email Sample is Invalid");
-            return false;
+            throw new UserRegistrationException(" ! Enter null ! ",
+                    UserRegistrationException.ExceptionType.NullEnter);
         }
     }
 }

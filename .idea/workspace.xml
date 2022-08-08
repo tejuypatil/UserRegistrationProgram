@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
 
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program of Junit Test case">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/ParameterisedUserRegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" afterDir="false" />
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program for JUnit Parameterised Test">
+      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationException.java" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/ParameterisedUserRegistrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
     </list>
 
@@ -37,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ParameterisedUserRegistrationTest">
+}</component>
+  <component name="RunManager" selected="JUnit.UserRegistrationJunitTestCases">
     <configuration name="UserRegistration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brigelabz.userresistration.UserRegistration" />
       <module name="UserRegistrationProblem" />
@@ -94,9 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParameterisedUserRegistrationTest" />
         <item itemvalue="JUnit.UserRegistrationJunitTestCases" />
-        <item itemvalue="Application.com.brigelabz.userresistration.UserRegistration" />
+        <item itemvalue="Application.UserRegistration" />
+        <item itemvalue="JUnit.ParameterisedUserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1659628565309</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+
+    <task id="LOCAL-00004" summary="Added Program for JUnit Parameterised Test">
+      <created>1659703960305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659703960305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
 
     <servers />
   </component>
@@ -153,6 +162,7 @@
     <MESSAGE value="Added Program to check Password rule4 by using minimum 8 Characters and 1 special chraracter" />
     <MESSAGE value="Added Program of email sample check" />
     <MESSAGE value="Added Program of Junit Test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program of Junit Test case" />
+    <MESSAGE value="Added Program for JUnit Parameterised Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program for JUnit Parameterised Test" />
   </component>
 </project>

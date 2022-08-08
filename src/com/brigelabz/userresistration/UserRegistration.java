@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UserRegistration {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UserRegistrationException {
         Scanner scanner =new Scanner(System.in);
         UserRegistrationMethods check = new UserRegistrationMethods();
 
