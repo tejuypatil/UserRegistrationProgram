@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program for JUnit Parameterised Test">
-      <change afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationException.java" afterDir="false" />
+    <list default="true" id="32bc58bd-9d4c-4255-ba83-d0c257def0d8" name="Changes" comment="Added Program for throw custom exceptions in case of invalid User details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/ParameterisedUserRegistrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationJunitTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brigelabz/userresistration/UserRegistrationMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659703960305</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Program for throw custom exceptions in case of invalid User details">
+      <created>1659961630684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659961630684</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +156,7 @@
     <MESSAGE value="Added Program of email sample check" />
     <MESSAGE value="Added Program of Junit Test case" />
     <MESSAGE value="Added Program for JUnit Parameterised Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program for JUnit Parameterised Test" />
+    <MESSAGE value="Added Program for throw custom exceptions in case of invalid User details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program for throw custom exceptions in case of invalid User details" />
   </component>
 </project>
